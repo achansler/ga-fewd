@@ -1,0 +1,18 @@
+body {
+	background-color:#ECEBEB;
+}
+h1 {
+	color:#8F8073;
+}
+h2,h3,h4,h5 {
+	color: #5B9279 ;
+}
+
+p {
+	color: #222222;
+}
+
+a {
+	color: #8FCB9B;
+	text-decoration: none;
+}
