@@ -1,0 +1,23 @@
+body {
+	text-align: center;
+}
+
+div {
+	padding: 75px 0px 75px 0px;
+	background-color: #EDEEC0;
+}
+
+h1 {
+	font-family: Helvetica;
+	color: #7C9082;
+	border-bottom: 2px black solid;
+	padding: 50px 100px 50px 100px;
+}
+
+.button {
+	text-align: center;
+	background-color: #433E0E;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+}

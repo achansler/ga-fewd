@@ -1,0 +1,18 @@
+h1 {
+  color: #7C9082;
+  padding: 100px;
+  text-align: center;
+  border-bottom: 10px dotted #433E0E;
+  width: 500px;
+  height: 100px;
+  background-color: #EDEEC0;
+  margin: 100px 375px;
+}
+
+.red {
+	width: 100px;
+	height: 100px;
+	background-color: #60001B;
+	display: inline-block;
+}
+

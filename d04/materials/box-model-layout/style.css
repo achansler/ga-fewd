@@ -1,0 +1,34 @@
+.gray {
+	background-color: #DEDEDE;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav {
+	background-color: #222222;
+	text-align: center;
+	color: #ffffff;
+	padding: 10px 0px;
+}
+
+div {
+	background-color: #FF6340;
+	padding: 20px;
+	margin:20px;
+}
+
+.blue {
+	color: blue;
+}
+
+.green {
+	color: green;
+}
+
+.yellow {
+	color: yellow;
+}
+
+a {
+	text-decoration: none;
+}

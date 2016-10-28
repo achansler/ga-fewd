@@ -1,0 +1,24 @@
+h1 {
+	color: #23395B;
+	font-size: 100px;
+}
+
+p {
+	margin-bottom: 50px;
+}
+
+#hero {
+	text-align: center;
+	font-family: Arial;
+	background-color: #f6f6f6;
+	padding: 75px 0px 75px 0px;
+}
+
+.button{
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #406E8E;
+	padding: 20px;
+	border-radius: 100px;
+	width: 200px;
+}
