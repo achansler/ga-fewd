@@ -1,0 +1,37 @@
+body{
+	margin: 100px;
+}
+
+h1{
+	font-family: Arial, sans-serif;
+	color: #222222;
+	font-size: 35px;
+	margin: 20px;
+}
+
+.large {
+	background-color: #D8D8D8;
+	border: 1px solid #979797;
+	height: 200px;
+	width: auto;
+	margin: 20px;
+}
+
+.medium {
+	background-color: #D8D8D8;
+	border: 1px solid #979797;
+	height: 500px;
+	width: 710px;
+	margin: 20px;
+	display: inline-block;
+
+}
+
+.small {
+	background-color: #D8D8D8;
+	border: 1px solid #979797;
+	height: 500px;
+	width: 200px;
+	margin: 20px;
+	display: inline-block;
+}
