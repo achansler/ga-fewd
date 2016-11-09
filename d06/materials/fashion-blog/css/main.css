@@ -84,115 +84,51 @@
 
 }
 
-/* Typography
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* styles */
 
-body {
-  font-family: "Lato", sans-serif;
-  line-height: 1.5;
+body,
+.date,
+.title {
+  font-family: Lato, sans-serif;
   color: #444444;
-  margin: 0px;
-  padding: 0px;
+  line-height: 1.6;
 }
 
 h1 {
-  color: #aa0000;
   font-size: 50px;
-}
-
-h2 {
-  font-size: 30px;
-  color: #000000;
+  color: #aa0000;
 }
 
 .date {
-  color: #cccccc;
   font-size: 30px;
+  color: #cccccc;
 }
 
-.title {
-  color: #000000;
+.title{
   font-size: 40px;
 }
 
+p{
+  font-family: georgia, serif;
+  font-size: 19px;
+}
+
 a {
-  color: #DD0000;
-  font-size: 16px;
-  text-decoration: none;
+  color: #aa0000;
+  font-size: 19px;
 }
 
-a:hover {
-  color: #aa0000;
+.article {
+  border-bottom: #cccccc 2px solid;
 }
 
 .nav a {
-  color: #dddddd;
-  font-size: 18px;
-}
-
-.nav a:hover {
-  color: #aa0000;
-}
-
-.copy-right{
-  color: #bbbbbb;
-}
-
-/* Spacing 
-____________________________________________________ */
-
-.nav a {
-  padding: 10px 25px 10px 0px;
+  color: #cccccc;
   text-decoration: underline;
+  font-size: 18px;
+  padding-right: 25px;
 }
 
-.nav {
-  margin: 25px 0px 25px 0px;
-}
-
-h1 {
-  margin: 50px 0px 20px 0px;
-}
-
-h2 {
-  margin: 0px;
-}
-
-.date {
-  margin-bottom: 0px;
-}
-
-.title {
-  margin: 0px 0px 20px 0px;
-}
-
-.footer {
-  margin: 30px 0px 15px 0px;
-}
-
-.footer a {
-  padding: 0px 5px 0px 5px;
-  border-right: 1px solid #bbbbbb;
-}
-
-.footer a:last-child {
-  border-right: none;
-}
-
-p + a {
-  float: right;
-  padding-bottom: 25px;
+ p + a {
   font-weight: bold;
 }
-
-/* extras
-__________________________________________________ */
-
-.articles{
-  border-bottom: 1px solid #bbbbbb;
-}
-
-.img {
-  width: 100%;
-}
-

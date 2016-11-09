@@ -1,0 +1,23 @@
+h1 {
+	font-size: 100px;
+}
+
+/* relational selectors 
+
+h1 + p {
+	adjacent sibling
+}
+
+h1 ~ p {
+	general sibling sibling
+}
+
+h1 > p {
+	direct child
+}
+
+h1 p {
+	decendent 
+}
+*/
+
