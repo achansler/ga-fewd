@@ -1,0 +1,9 @@
+.box {
+	background-color: gray;
+	border: 1px black solid;
+	height: 100px;
+}
+
+.middle {
+	height: 300px;
+}

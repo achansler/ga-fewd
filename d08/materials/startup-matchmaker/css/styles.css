@@ -1,0 +1,152 @@
+/* // FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+	font-family: 'Source Sans Pro', sans-serif; ;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.625rem;
+}
+
+.hero {
+	background-image: url("../img/coworking.jpg");
+	height: 500px;
+	background-size: cover;
+}
+
+.nav {
+	background-color: #000000;
+	padding-bottom: 20px;
+	border-bottom: 3px yellow solid;
+}
+
+.logo {
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	font-size: 1.25rem;
+	color: yellow;
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	padding: 0px 10px 0px 10px;
+}
+
+.tagline {
+	background-color: #c6c6c6;
+}
+
+.tagline {
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+}
+
+h2 {
+	font-family: "Merriweather", serif;
+	font-size: 1.125rem;
+}
+
+small {
+	font-family: "Merriweather", serif;
+	color: #ffffff;
+}
+
+.cross-out {
+	color: #808080;
+	text-decoration: line-through;
+}
+
+.underline {
+	border-bottom: 2px solid yellow;
+}
+
+.hero-info {
+	background-color: rgba(255,255,255, 0.8);
+	padding: 30px;
+	margin-top: 60px;
+}
+
+button {
+	width: 100%;
+	padding: 15px;
+	background-color: #C6C6C6;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 3px 0 0 #979797;
+}
+
+button:hover {
+	background-color: #686868;
+	color: #ffffff;
+	box-shadow: 0 3px 0 0 #343434;
+}
+
+button a {
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	color: #000000;
+}
+
+.primary {
+	background-color: yellow;
+}
+
+.secondary {
+	margin-top: 25px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.info-blocks {
+	background-color: #F6F6F6;
+	padding: 30px 0px 30px 0px;
+}
+
+.block {
+	padding: 30px 30px 30px 30px;
+}
+
+.lines {
+	border-right: 1px #979797 solid;
+	border-left: 1px #979797 solid;
+}
+
+footer {
+	background-color: #000000;
+	padding: 20px 0px 30px 0px;
+}
+
+
+@media (max-width: 400px) {
+	.lines {
+		border: none;
+	}
+
+	.hero-info {
+		padding: 30px 30px 30px 30px;
+	}
+
+	nav {
+		margin-top: 10px;
+	}
+
+	nav a {
+		padding: 5px;
+		font-size: .9rem;
+	}
+
+	.col-1-1 {
+		text-align: center;
+	}
+}
