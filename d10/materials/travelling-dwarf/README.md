@@ -24,3 +24,5 @@ Only move on to this step if you finish the program described above.
 In `bonus-solution.js` write a new program that moves the dwarf through the maze *without* foreknowledge of the maze design. In other words, the dwarf will have to detect impediments and decide which way to turn.
 
 HINT: `g.at(x, y)` will tell you if there is an obstacle at the coordinate you specify...
+
+d.orientation = what direction he's going in    
