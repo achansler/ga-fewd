@@ -13,7 +13,7 @@
 // Display the f number is the paragraph 
 
 $("button").on("click", function() {
-	var userInput = $("input#temperature").val();
-	var fahrenheit = (userInput - 32) / 1.8000;
+	var userInput = parseFloat($("input#temperature").val());
+	var fahrenheit = (userInput * 1.8) + 32;
 	$("span#converted").text(fahrenheit);
 });
