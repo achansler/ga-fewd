@@ -13,15 +13,35 @@
 
 	var count = 0;
 
-    $("#a10").on("click", function () {
+    $("#a10").on("click", function() {
     	count = count + 10;
     	$("#out").text(count);
     });
 
-     $("#a20").on("click", function () {
+     $("#a20").on("click", function() {
      	count = count + 20;
     	$("#out").text(count);
     });
+
+     $("#a30").on("click", function() {
+        count = count + 30;
+        $("#out").text(count);
+     });
+
+     $("#n10").on("click", function() {
+        count = count - 10;
+        $("#out").text(count);
+     });
+
+     $("#n20").on("click", function() {
+        count = count - 20;
+        $("#out").text(count);
+     });
+
+     $("#n30").on("click", function() {
+        count = count - 30;
+        $("#out").text(count);
+     })
 
     $("#red").on("click", function() {
     	$("#out").css("background-color", "red");
@@ -33,5 +53,6 @@
 
     $("#out").on("click", function() {
     	$("#out").css("background-color", "white");
-    	$("#out").text("0");
+        count = 0;
+    	$("#out").text(count);
     });
