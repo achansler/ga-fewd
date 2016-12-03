@@ -1,3 +1,7 @@
+body {
+	margin-bottom: 0px;
+}
+
 button {
 	padding: 20px 20px 20px 20px;
 	border: 1px gray solid;
@@ -27,14 +31,13 @@ nav.dropdown {
 	width: 120px;
 	border: 1px solid gray;
 	border-radius: 5px;
-	margin-top: 5px;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 	display: none;
-	position: absolute;
 }
 
 nav.open {
     display: block;
+    position: absolute;
   }
 
 a {
