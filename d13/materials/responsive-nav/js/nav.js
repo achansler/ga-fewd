@@ -1,3 +1,3 @@
-$(".hamburger").click(function() {
-  $(".nav").toggle();
+$(".hamburger").on("click", function() {
+  $(".nav").slideToggle("fast");
 });
