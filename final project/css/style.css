@@ -1,0 +1,119 @@
+
+
+html,
+body {
+  background-color: #C8F6EC;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  color: #222222;
+  line-height: 1.5;
+}
+
+
+/* TYPOGRAPHY */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+.big {
+	font-size: 7rem;
+	text-align: center;
+	line-height: 1.4;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-heavy {
+  font-weight: 700;
+}
+
+/* POSITIONING */
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+
+/* BUTTONS */
+
+button {
+	width: 100%;
+	background-color: transparent;
+	border: 3px black solid;
+	padding: 20px;
+	box-shadow: 10px 10px 0px 0px rgba(0,0,0,1);
+	font-size: 1.5rem;
+	color: #000000;
+}
+
+button:hover {
+	background-color: #ffffff;
+}
+
+button:active {
+	box-shadow: none;
+}
+
+button.hide {
+	display: none;
+}
+
+#yes {
+    cursor: url("/Users/abigailchansler/Desktop/ga-fewd/final project/img/happy.png"), auto;
+}
+
+#no {
+	cursor: url('/Users/abigailchansler/Desktop/ga-fewd/final project/img/sad.png'), auto;
+}
