@@ -19,3 +19,32 @@ $("button#yes").on("click", function() {
 	$("button#yes").addClass("hide");
 	$("button#no").addClass("hide");
 });
+
+$('.center').slick({
+  centerMode: true,
+  accessibility: true,
+  focusOnSelect: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+        

@@ -111,9 +111,9 @@ button.hide {
 }
 
 #yes {
-    cursor: url("/Users/abigailchansler/Desktop/ga-fewd/final project/img/happy.png"), auto;
+    cursor: url("/Users/abigailchansler/ga-fewd/final project/img/happy.png"), auto;
 }
 
 #no {
-	cursor: url('/Users/abigailchansler/Desktop/ga-fewd/final project/img/sad.png'), auto;
+	cursor: url("/Users/abigailchansler/ga-fewd/final project/img/sad.png"), auto;
 }
