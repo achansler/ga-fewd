@@ -145,6 +145,6 @@
     transform:scale(1.08);
 }
 .center img {
-    opacity:0.8;
+    opacity:0.5;
     transition:all 300ms ease;
 }

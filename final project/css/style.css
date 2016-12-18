@@ -20,6 +20,7 @@ body {
 
 h1 {
   font-size: 2.5rem;
+  margin-bottom: 100px;
 }
 
 h2 {
@@ -28,6 +29,7 @@ h2 {
 
 h3 {
   font-size: 1.375rem;
+  margin-top: 50px;
 }
 
 h4 {
@@ -98,6 +100,10 @@ button {
 	color: #000000;
 }
 
+#next {
+  margin: 50px 0px 50px 0px;
+}
+
 button:hover {
 	background-color: #ffffff;
 }
@@ -110,10 +116,32 @@ button.hide {
 	display: none;
 }
 
+.hide {
+  display: none;
+}
+
 #yes {
-    cursor: url("/Users/abigailchansler/ga-fewd/final project/img/happy.png"), auto;
+    cursor: url("/Users/abigailchansler/desktop/ga-fewd/final project/img/happy.png"), auto;
 }
 
 #no {
-	cursor: url("/Users/abigailchansler/ga-fewd/final project/img/sad.png"), auto;
+	cursor: url("/Users/abigailchansler/desktop/ga-fewd/final project/img/sad.png"), auto;
+}
+
+img {
+  width: 100%
+}
+
+#big {
+  display: block;
+  margin: auto;
+  width: 400px;
+}
+
+small {
+  margin-top: 20px;
+}
+
+#empty { 
+color: #B1DBD2; 
 }
