@@ -1,5 +1,3 @@
-
-
 html,
 body {
   background-color: #C8F6EC;
@@ -20,7 +18,7 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 h2 {
@@ -144,4 +142,12 @@ small {
 
 #empty { 
 color: #B1DBD2; 
+}
+
+.toppings {
+  padding: 0px 0px 25px 0px;
+  border-radius: 5px;
+}
+.toppings:hover {
+  box-shadow: -1px 3px 31px 12px rgba(0,0,0,0.05);
 }
